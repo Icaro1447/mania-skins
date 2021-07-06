@@ -1,0 +1,56 @@
+{
+    "skins": [{
+        "id": "0",
+        "type": "Circle",
+        "keys": "4",
+        "timestamp": "07/03/2020",
+        "tags": ["generic"],
+        "title": "boiji 5.9.21 - 467K Mix",
+        "author": "bojii",
+        "description": "A good circle skin",
+        "download": "https://www.mediafire.com/file/x0750773aq441h0/bojii_5.9.21_-_467K_Mix.osk/file",
+        "images": ["https://media.discordapp.net/attachments/803268208664510474/858036575580192778/unknown.png?width=842&height=473"]
+    }, {
+        "id": "1",
+        "type": "Trace",
+        "keys": "4",
+        "timestamp": "07/03/2020",
+        "tags": ["arcaea"],
+        "title": "Arcaea Skin",
+        "author": "OneStar",
+        "description": "Skin feia da porra mermao",
+        "download": "http://www.mediafire.com/file/f5vr6jdgsnh3h1f/Arcaea_OneStar_1.0%252Cver.osk/file",
+        "images": ["https://media.discordapp.net/attachments/803268208664510474/857703433691987968/unknown.png?width=842&height=473"]
+    }, {
+        "id": "2",
+        "type": "Arrow",
+        "keys": "4",
+        "timestamp": "07/03/2020",
+        "tags": ["decorated"],
+        "title": "- # Ayame Lylwrychi",
+        "author": "suckawa",
+        "description": "owowowowo",
+        "download": "https://drive.google.com/file/d/1FAZ4zfRvqYurjuDH7wrCkVlC7fyM5G30/view?usp=sharing",
+        "images": ["https://media.discordapp.net/attachments/803268208664510474/862049676178096148/imagem_2021-07-06_161501.png?width=760&height=427"]
+    }, {
+        "id": "3",
+        "title": "百鬼あやめ",
+        "author": "nayuu",
+        "keys": "4",
+        "type": "circle",
+        "download": "https://drive.google.com/file/d/1MVN90AbLIfK6y_1mtKGNERJUfbpDDh_f/view?usp=sharing",
+        "images": ["https://media.discordapp.net/attachments/803268208664510474/862047818822844486/imagem_2021-07-06_160820.png?width=760&height=427"],
+        "tags": ["red, decorated"],
+        "description": "hi"
+    }, {
+        "id": "4",
+        "title": "Hina-Hikawa 2.1",
+        "author": "Hideru",
+        "keys": "4",
+        "type": "Arrow",
+        "download": "https://drive.google.com/file/d/1vVzyUA8cOLUEX9OQ7FP7DO7So6osrH4I/view?usp=sharing",
+        "images": ["https://media.discordapp.net/attachments/803268208664510474/862047027848413204/imagem_2021-07-06_160237.png?width=760&height=427"],
+        "tags": ["nerdola, waifu"],
+        "description": "af skin de anime"
+    }]
+}

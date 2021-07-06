@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/global_variables.js" defer></script>
+    <script src="/js/createSelectors.js" defer></script>
+    <script src="/js/selectors/prepare_selectors.js" defer></script>
+    <script src="/js/selectors/change_image.js" defer></script>
+    <script src="/js/buttons/buttons.js" defer></script>
+    <script src="/js/selectors/skin_page.js" defer></script>
+    <script src="js/addskin.js"></script>
+    <title>osu!mania Skins (BETA)</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <a class="title" href="/?pages=1">osu!mania Skins</a>
+    </nav>
+    <div class="skin-page-overlay" id="skin-page">
+        <div class="image-modal">
+            <button class="image-change" id="min"><</button>
+            <img class="skin-image-view" id="skin-image" src="https://media.discordapp.net/attachments/803268208664510474/858036575580192778/unknown.png?width=842&height=473" />
+            <button class="image-change" id="mor">></button>
+        </div>
+        <div class="skin-info">
+            <p class="info-title">Skin Info</p>
+            <div class="paragraph-box">
+                <p class="title-label inline title-element">Title:
+                    <p class="title inline" id="skin-title">{Title}</p>
+                </p>
+                <p class="author-label inline title-element">Author:
+                    <p class="author inline" id="skin-author">{Author}</p>
+                </p>
+                <p class="type-label inline title-element">Keys:
+                    <p class="type inline" id="skin-keys">{Type}</p>
+                </p>
+                <p class="type-label inline title-element">Type:
+                    <p class="type inline" id="skin-type">{Type}</p>
+                </p>
+                <div class="tags-label inline title-element" type="tags-modal">Tags:
+                    <a class="type inline tag">indisponible now</a>
+                </div>
+            </div>
+            <p class="info-title">Creator Words</p>
+            <div class="paragraph-box">
+                <p class="inline" id="skin-about"></p>
+            </div>
+
+            <div class="paragraph-box" style="margin-top: 5%;">
+                <button class="download" id="skin-download">Download Skin</button>
+            </div>
+            <div class="skin-page-footer"></div>
+        </div>
+    </div>
+    <div class="skins-containers-layout" id="skins-container">
+    </div>
+    <div class="page-selector"><select>
+        <option value="1">Home</option>
+        <option value="2">2</option>
+    </select></div>
+    <footer>
+        <p>Idealized by Clowwnnw#8848 and developed with
+            <emoji>❤</emoji> by Sebola#3461</p>
+    </footer>
+</body>
+
+</html>

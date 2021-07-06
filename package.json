@@ -1,0 +1,30 @@
+{
+    "name": "mania_skins",
+    "version": "1.0.0",
+    "description": "Mania skins share",
+    "main": "server.js",
+    "scripts": {
+        "test": "node ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Icaro1447/mania-skins.git"
+    },
+    "keywords": [
+        "osu!",
+        "game",
+        "skins",
+        "website"
+    ],
+    "author": "Sebola3461",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Icaro1447/mania-skins/issues"
+    },
+    "homepage": "https://github.com/Icaro1447/mania-skins#readme",
+    "dependencies": {
+        "express": "^4.17.1",
+        "mysql": "^2.18.1",
+        "original-fs": "^1.1.0"
+    }
+}
