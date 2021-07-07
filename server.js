@@ -9,8 +9,6 @@ app.get('/', function(req, res) {
 
 app.listen(() => {
     console.log("Running")
-}).catch(e => {
-    console.error(e)
 })
 
 module.exports.app = app;
