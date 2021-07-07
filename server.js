@@ -7,7 +7,11 @@ app.get('/', function(req, res) {
     res.sendFile(__dirname + "/views/index.html")
 })
 
-app.listen(() => {
+app.get('/favicon.ico', function(req, res) {
+    res.sendFile(__dirname + "/favicon.ico")
+})
+
+app.listen(3000, () => {
     console.log("Running")
 })
 
