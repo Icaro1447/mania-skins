@@ -1,6 +1,5 @@
 const express = require('express')
-const app = express(),
-    server = require('http').createServer(app)
+const app = express();
 app.use(express.static(__dirname + '/static/'))
 
 app.get('/', function(req, res) {
