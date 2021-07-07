@@ -11,7 +11,7 @@ app.get('/favicon.ico', function(req, res) {
     res.sendFile(__dirname + "/favicon.ico")
 })
 
-app.listen(3000, "osumaniaskins.herokuapp.com", () => {
+app.listen("osumaniaskins.herokuapp.com", () => {
     console.log("Running")
 })
 
