@@ -7,7 +7,7 @@ app.get('/', function(req, res) {
     res.sendFile(__dirname + "/views/index.html")
 })
 
-app.listen(8080, "osumaniaskins.herokuapp.com", () => {
+app.listen(3000, () => {
     console.log("Running")
 })
 
