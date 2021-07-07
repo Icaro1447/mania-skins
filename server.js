@@ -4,11 +4,11 @@ app.use(express.static(__dirname + '/static/'))
 app.name = "osumaniaskins";
 
 app.get('/', function(req, res) {
-    res.sendFile(__dirname + "/views/index.html")
+    res.status(200).sendFile(__dirname + "/views/index.html")
 })
 
 app.get('/favicon.ico', function(req, res) {
-    res.sendFile(__dirname + "/favicon.ico")
+    res.status(200).sendFile(__dirname + "/favicon.ico")
 })
 
 app.listen("osumaniaskins.herokuapp.com", () => {
