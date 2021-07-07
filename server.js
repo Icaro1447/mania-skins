@@ -6,7 +6,7 @@ app.get('/', function(req, res) {
     res.sendFile(__dirname + "/views/index.html")
 })
 
-server.listen(80, () => {
+app.listen(80, () => {
     console.log("Running")
 })
 
